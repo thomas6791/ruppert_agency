@@ -1,10 +1,10 @@
 #home {
-  .prestation {
+  .banner {
     height: 90vh;
-    border: solid;
+    border: solid 0.5px;
     background-size: cover;
   }
-  .prestation.presentation {
-    opacity: 0.5;
+  h2 {
+    color: white;
   }
 }
