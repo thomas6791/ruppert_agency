@@ -1,0 +1,23 @@
+footer {
+  min-height: 90px;
+  background-color: #4a4e53;
+
+  ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      list-style: none;
+      line-height: 90px;
+      text-align: center;
+      margin: 0px;
+      padding: 0px;
+      }
+      li a {
+        color: white;
+        font-family: "Tsukushi A Round Gothic";
+        &:hover {
+          text-decoration: none;
+          color: white;
+        }
+      }
+}
